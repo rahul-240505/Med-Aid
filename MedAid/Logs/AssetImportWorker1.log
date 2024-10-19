@@ -400,3 +400,78 @@ Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2)
  -> (artifact id: 'f448eb04ce67474f4a165c248c238a66') in 0.168691 seconds
 Number of updated asset objects reloaded before import = 3
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8666.948716 seconds.
+  path: Assets/Models/Characters/Ch1.png
+  artifactKey: Guid(eec523873eba4f940807308a9258d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Ch1.png using Guid(eec523873eba4f940807308a9258d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5306f0c0c4847da459c2b5374a074898') in 0.493473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Models/Characters/Face1.png
+  artifactKey: Guid(1da689c69c7b0054883cfb7668f58ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Face1.png using Guid(1da689c69c7b0054883cfb7668f58ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '326b456570fd53f6d65cb616d7dd3dc2') in 0.015696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Models/Characters/FaceAfraid.png
+  artifactKey: Guid(043c3d825fa74d84b8e2a7480e584872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/FaceAfraid.png using Guid(043c3d825fa74d84b8e2a7480e584872) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '06b378d5d12ab3623f05d646d288ee46') in 0.012072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Models/Characters/FaceSad.png
+  artifactKey: Guid(f1bbb524b6475d142970cf5e9d711d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/FaceSad.png using Guid(f1bbb524b6475d142970cf5e9d711d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b814778f045fd5c0469fb30706a2e7c3') in 0.011868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Characters/FaceDead.png
+  artifactKey: Guid(d7e5536376e31d84baff5ff9a1db538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/FaceDead.png using Guid(d7e5536376e31d84baff5ff9a1db538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ab9b853e0962e345fb757940ed13013f') in 0.011827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Characters/FaceCry.png
+  artifactKey: Guid(93c571835493377499ec4d6d9b26ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/FaceCry.png using Guid(93c571835493377499ec4d6d9b26ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4e2515872f340c0d21a7ef0611e52ce6') in 0.011711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Characters/FaceUnconsious.png
+  artifactKey: Guid(4171514f990227041ae992dcdf0f2d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/FaceUnconsious.png using Guid(4171514f990227041ae992dcdf0f2d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4f581f59d0fa064219ea159e89adfe9f') in 0.013205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
