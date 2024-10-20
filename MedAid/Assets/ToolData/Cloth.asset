@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Cloth
   m_EditorClassIdentifier: 
   toolName: Cloth
-  toolPrefab: {fileID: 919132149155446097, guid: 4e1b135e75d142f44a9e0cd1a7db8737,
+  toolPrefab: {fileID: 6025234822297637308, guid: c0eed4be3a0f4ce42a9cb76aa0a03d02,
     type: 3}

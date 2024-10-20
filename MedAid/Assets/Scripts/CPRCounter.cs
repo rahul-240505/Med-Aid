@@ -6,6 +6,8 @@ public class CPRCounter : MonoBehaviour
     public int cprCounter = 0;         // Tracks the number of successful CPR compressions
     public int counterGoal;            // The goal number of compressions to reach
 
+    int airProvided;
+
     public Slider airSlider;           // Slider to track air given during CPR
     public Button airBtn;              // Button to activate air delivery when slider is full
     public Button cprBtn;              // Button to activate air delivery when slider is full
@@ -72,6 +74,7 @@ public class CPRCounter : MonoBehaviour
         {
             airSlider.value = 0;        // Reset slider value to zero
         }
+        airProvided++;
         cprBtn.enabled = false;
         Invoke("EnableCPRBtn", 3);
     }
@@ -79,8 +82,7 @@ public class CPRCounter : MonoBehaviour
     // Handle the win condition when the CPR goal is reached
     private void WinCondition()
     {
-        Debug.Log("CPR Successful!");   // You can replace this with the actual win logic
-        // Additional logic like stopping the timer or transitioning to a new scene can go here
+        PlayerProgressManager.Instance.CPRLevelWin(airProvided);
     }
     void EnableCPRBtn()
     {

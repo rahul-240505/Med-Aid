@@ -7,7 +7,8 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance { get; private set; }
 
-    public int noOfTries;
+    public bool isTestLevel;
+
     public int maxTries;
 
     public int triesUsed;
@@ -24,15 +25,10 @@ public class LevelManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        noOfTries = maxTries;
-    }
 
     // Update is called once per frame
     void Update()
     {
-        triesTxt.text = "Tries Used : " + triesUsed.ToString();
+        triesTxt.text = "No. of Trials : " + triesUsed.ToString();
     }
 }

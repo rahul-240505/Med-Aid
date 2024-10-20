@@ -13,7 +13,7 @@ public class LevelTimer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Initialize the current time with the timer's starting value
+        if(LevelManager.Instance != null && LevelManager.Instance.isTestLevel) isTimerLevel = true;
         currentTime = timer;
     }
 
@@ -26,7 +26,11 @@ public class LevelTimer : MonoBehaviour
             currentTime -= Time.deltaTime;
 
             // Ensure the timer doesn't go below zero
-            if (currentTime < 0) currentTime = 0;
+            if (currentTime < 0)
+            {
+                currentTime = 0;
+                PlayerProgressManager.Instance.Lose();
+            }
 
             // Convert time to minutes and seconds
             int minutes = Mathf.FloorToInt(currentTime / 60);

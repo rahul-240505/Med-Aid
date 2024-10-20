@@ -6,6 +6,45 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/LevelSelectionMenu.unity
+    guid: b026036f065a77c4fba58290dff67266
+  - enabled: 1
+    path: Assets/Scenes/Cardiac Arrest Tut.unity
+    guid: 44bc547794639784db922061446af26f
+  - enabled: 1
+    path: Assets/Scenes/Small Cut.unity
+    guid: f0f2328d7e35ce042a23e79445bf0b5a
+  - enabled: 1
+    path: Assets/Scenes/Large Cut.unity
+    guid: 24d42727fd9e0d3448a32f2b2893c0a9
+  - enabled: 1
+    path: Assets/Scenes/DeepWound.unity
+    guid: c299992ebbf5f9d468a0b3a41b5e6077
+  - enabled: 1
+    path: Assets/Scenes/1DegBurn.unity
+    guid: 5bec8ed5d9dafb34dabc887662639451
+  - enabled: 1
+    path: Assets/Scenes/2DegBurn.unity
+    guid: 72daa9a35b9bf544eb60c05f06af23e6
+  - enabled: 1
+    path: Assets/Scenes/3DegBurn.unity
+    guid: 601cf1f457d123544af1387f314cc86a
+  - enabled: 1
+    path: Assets/Scenes/Fractures.unity
+    guid: b0ff8d756c9a8f6479d63210db5dcf66
+  - enabled: 1
+    path: Assets/Scenes/BrokenBone.unity
+    guid: 2347b11d400e11e4982d403df8b83b29
+  - enabled: 1
+    path: Assets/Scenes/CatScratch.unity
+    guid: 3c69c2c9ee383bc4fbb23a0fe0c95a16
+  - enabled: 1
+    path: Assets/Scenes/DogBite.unity
+    guid: 47d355502fd677b4e83e199d1357b4f5
+  - enabled: 1
+    path: Assets/Scenes/WildAnimalScratch.unity
+    guid: 59d695e8d386aeb40949b547c9b21f10
+  - enabled: 1
+    path: Assets/Scenes/WildAnimalBite.unity
+    guid: 172ce4de91822f84f9de9f815b26a9f2
   m_configObjects: {}

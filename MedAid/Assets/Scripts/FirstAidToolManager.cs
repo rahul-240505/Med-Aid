@@ -27,11 +27,6 @@ public class FirstAidToolManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);  // Keep this object across scenes
-        }
-        else
-        {
-            Destroy(gameObject);
         }
     }
 
@@ -58,11 +53,8 @@ public class FirstAidToolManager : MonoBehaviour
                 toolInScene.transform.position = hit.point;
                 if (Input.GetMouseButtonDown(1))
                 {
-                    if (LevelManager.Instance.noOfTries != 0)
-                    {
-                        LevelManager.Instance.noOfTries--;
-                        LevelManager.Instance.triesUsed++;
-                    }
+                    
+                    LevelManager.Instance.triesUsed++;
                     if (hit.collider.CompareTag("Treatable"))
                     {
                         if (hit.transform.gameObject.GetComponent<WoundDetail>().medToolIndex[woundIndex] == toolIndex)
@@ -121,5 +113,9 @@ public class FirstAidToolManager : MonoBehaviour
     public void WrongToolUsed()
     {
         wrongToolWarning.SetActive(true);
+    }
+    public void CheckWinCondition()
+    {
+        PlayerProgressManager.Instance.CheckWinCondition(woundIndex, decalTreatment.Count);
     }
 }
